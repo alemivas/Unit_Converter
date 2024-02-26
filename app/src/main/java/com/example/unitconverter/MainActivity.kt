@@ -67,7 +67,7 @@ fun UnitConverter() {
                     Icon(Icons.Default.ArrowDropDown,
                         contentDescription = "Arrow Down")
                 }
-                DropdownMenu(expanded = true, onDismissRequest = { /*TODO*/ }) {
+                DropdownMenu(expanded = false, onDismissRequest = { /*TODO*/ }) {
                     DropdownMenuItem(
                         text = { Text("Centimeters") },
                         onClick = { /*TODO*/ })
@@ -89,7 +89,7 @@ fun UnitConverter() {
                     Icon(Icons.Default.ArrowDropDown,
                         contentDescription = "Arrow Down")
                 }
-                DropdownMenu(expanded = true, onDismissRequest = { /*TODO*/ }) {
+                DropdownMenu(expanded = false, onDismissRequest = { /*TODO*/ }) {
                     DropdownMenuItem(
                         text = { Text("Centimeters") },
                         onClick = { /*TODO*/ })
